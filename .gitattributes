@@ -1,0 +1,3 @@
+# Ensure provision folder will use LF.
+*.sh            eol=lf
+provision/*     eol=lf

@@ -1,6 +1,24 @@
 
 # Scotch Box
 
+Fork of the original repo that adds HTTPS supports.
+Example:
+ 
+```
+git clone --config core.autocrlf=false https://github.com/angel-vladov/scotch-box-https.git
+cd my-project
+vagrant up
+```
+
+## HTTPS Support
+
+`vagrant up` and visit `https://192.168.33.10`.
+
+You can also add dev domain to `etc/hosts` (Example: `192.168.33.10 dev.example.com`).
+
+**WARNING:**  
+- The setup uses a **self signed certificate**. You'll need to confirm the security exception when asked.
+
 ## [GET SCOTCH BOX PRO](https://box.scotch.io/pro)
 
 ## [TUTORIAL](https://box.scotch.io)
